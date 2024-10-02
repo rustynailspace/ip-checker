@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/ip-checker.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/ip-checker", "dest": "/api/ip-checker.js" }
+  ]
+}
